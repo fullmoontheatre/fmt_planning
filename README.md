@@ -15,7 +15,6 @@ This repository includes a Jupyter notebook to help planning the Full Moon Theat
 * pandas
 * matplotlib
 * numpy
-* moon
 
 ## Installation
 
