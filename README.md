@@ -15,6 +15,7 @@ This repository includes a Jupyter notebook to help planning the Full Moon Theat
 * pandas
 * matplotlib
 * numpy
+* moon
 
 ## Installation
 
@@ -22,16 +23,32 @@ This repository includes a Jupyter notebook to help planning the Full Moon Theat
 2. Install the [pip](https://pypi.org/project/pip/) python package installer
 3. Use `pip` to install the dependencies
 
+On unix systems, such as Linux or MacOS:
+
 ```
 python3 -m pip install -r requirements.txt
+```
+
+On Windows systems:
+
+```
+py -m pip install -r requirements.txt
 ```
 
 ## Use
 
 From the command-line, launch Jupiter Notebook.
 
+On unix systems, such as Linux or MacOS:
+
 ```
-jupyter notebook
+python3 -m jupyter
+```
+
+On Windows systems:
+
+```
+py -m jupyter
 ```
 
 Navigate to the `Full Moon Theatre Planning.ipynb` notebook. Tweak and execute as needed for your project.

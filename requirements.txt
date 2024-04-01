@@ -4,4 +4,4 @@ pandas
 matplotlib
 numpy
 notebook
-git+https://github.com/spacerest/moon.git
+#git+https://github.com/spacerest/moon.git
